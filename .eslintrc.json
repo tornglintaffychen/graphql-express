@@ -1,0 +1,36 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "standard"
+  ],
+  "plugins": [
+    "standard"
+  ],
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error",
+          "log"
+        ]
+      }
+    ],
+    "no-global-assign": [
+      "error",
+      {
+        "exceptions": [
+          "fetch"
+        ]
+      }
+    ],
+     "strict": 0
+  }
+}
