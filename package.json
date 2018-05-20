@@ -10,9 +10,11 @@
   "author": "Torng-Lin (Taffy) Chen",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
-    "graphql": "^0.13.2"
+    "graphql": "^0.13.2",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
